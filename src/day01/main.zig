@@ -56,9 +56,9 @@ pub fn main() !void {
     // // Print sorted lists
     std.debug.print("Column 1 Sorted: {d}\n", .{column1.items.len});
     std.debug.print("Column 2 Sorted: {d}\n", .{column2.items.len});
-    var sum: i32 = 0;
+    var sum: u32 = 0;
     for (column1.items, 0..) |number, index| {
-        const value = column2.items[index] - number;
+        const value = @abs(column2.items[index] - number);
         sum = sum + value;
     }
     std.debug.print("{d}\n", .{sum});
