@@ -1,6 +1,6 @@
-# Advent of Code 2023
+# Advent of Code 2024
 
-- https://adventofcode.com/2023
+- https://adventofcode.com/2024
 
 
 ## How make new day
@@ -22,9 +22,3 @@ make test
 ```
 make bench
 ```
-
-## Tools used for exercises
-
-- https://regex101.com/
-- VSCode + Golang extension
-- [VSCode snippets for go](https://gist.github.com/abtris/e6ba014d1e74afe58fc093bd7a3e87cd)
